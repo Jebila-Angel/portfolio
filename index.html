@@ -1,1 +1,156 @@
-Page Coming Up
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jebila | Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="page" class="pagep1">
+        <nav class="site-nav" aria-label="Main navigation">
+            <a class="site-brand" href="#header">Jebila Angel</a>
+            <div class="site-links">
+                <a href="#about">About</a>
+                <a href="#Skills">Skills</a>
+                <a href="#project">Project</a>
+                <a href="#contact">Contact</a>
+            </div>
+        </nav>
+        <header id="header" class="section s1 hero">
+            <img class="hero-image" src="https://images.unsplash.com/photo-1448375240586-882707db888b?auto=format&fit=crop&w=2000&q=85" alt="Sunlight falling through a lush green forest">
+            <div class="hero-content">
+                <h1 id="hero-quote" class="hero-quote">“There are 10 kinds of people: those who understand binary and those who don't.”</h1>
+            </div>
+            <a class="scroll-cue" href="#about" aria-label="Scroll down to About">
+                <span aria-hidden="true">↓</span>
+            </a>
+        </header>
+        <section id="about" class="section about" aria-labelledby="about-heading">
+            <div class="about-copy">
+                <p class="about-eyebrow">A little about me</p>
+                <h2 id="about-heading"><span id="typed-name">Jebila Angel Buela CS</span></h2>
+                <p class="about-role-label">I am a</p>
+                <p class="about-role"><span id="typed-role">Co-Founder of Angel Academy</span></p>
+                <p class="about-bio">I love teaching new coders and building thoughtful, useful websites. I’m ambitious and a quick learner, though I sometimes procrastinate until a deadline becomes my very persuasive project manager. I’m an introvert until I’m comfortable with you; then you may wonder, “Is this the woman we hired?” I try to bring humor into everything I do, and I love the color green, hehe, so this emerald theme is very much on purpose. When I’m stuck, I ask my clever digital sidekick to help explore ideas and untangle tricky bugs; I still steer the code.In other words, this person uses AI to code.</p>
+            </div>
+            <img class="about-image" src="Asset/Profile.png" alt="Profile Picture of Jebila Angel Buela">
+        </section>
+        <section id="Skills" class="skills-section" aria-labelledby="skills-heading">
+            <div class="skills-heading">
+                <p class="skills-eyebrow">What I work with</p>
+                <h2 id="skills-heading">Skills</h2>
+            </div>
+            <div class="skill-tabs" role="tablist" aria-label="Skill categories">
+                <button id="skill-tab-all" class="skill-tab is-active" type="button" role="tab" aria-controls="skills-panel" aria-selected="true" tabindex="0" data-category="all"><span class="skill-tab-icon" aria-hidden="true">📚</span>All</button>
+                <button id="skill-tab-languages" class="skill-tab" type="button" role="tab" aria-controls="skills-panel" aria-selected="false" tabindex="-1" data-category="language"><span class="skill-tab-icon" aria-hidden="true">💻</span>Language</button>
+                <button id="skill-tab-framework" class="skill-tab" type="button" role="tab" aria-controls="skills-panel" aria-selected="false" tabindex="-1" data-category="framework"><span class="skill-tab-icon" aria-hidden="true">🧩</span>Framework</button>
+                <button id="skill-tab-tools" class="skill-tab" type="button" role="tab" aria-controls="skills-panel" aria-selected="false" tabindex="-1" data-category="tools"><span class="skill-tab-icon" aria-hidden="true">🛠️</span>Software Tools</button>
+                <button id="skill-tab-other" class="skill-tab" type="button" role="tab" aria-controls="skills-panel" aria-selected="false" tabindex="-1" data-category="other"><span class="skill-tab-icon" aria-hidden="true">🤝</span>Soft Skills</button>
+                <button id="skill-tab-random" class="skill-tab" type="button" role="tab" aria-controls="skills-panel" aria-selected="false" tabindex="-1" data-category="random"><span class="skill-tab-icon" aria-hidden="true">🎲</span>Random</button>
+            </div>
+            <div id="skills-panel" class="skills-panel" role="tabpanel" aria-labelledby="skill-tab-all" tabindex="0">
+                <ul id="skills-list" class="skills-grid">
+                    <li class="skill-item" data-category="language"><div class="skill-item-heading"><span>HTML</span><span>90%</span></div><div class="skill-meter" role="meter" aria-label="HTML proficiency" aria-valuemin="0" aria-valuemax="100" aria-valuenow="90"><span style="--skill-level: 90%"></span></div></li>
+                    <li class="skill-item" data-category="language"><div class="skill-item-heading"><span>CSS</span><span>85%</span></div><div class="skill-meter" role="meter" aria-label="CSS proficiency" aria-valuemin="0" aria-valuemax="100" aria-valuenow="85"><span style="--skill-level: 85%"></span></div></li>
+                    <li class="skill-item" data-category="language"><div class="skill-item-heading"><span>JavaScript</span><span>75%</span></div><div class="skill-meter" role="meter" aria-label="JavaScript proficiency" aria-valuemin="0" aria-valuemax="100" aria-valuenow="75"><span style="--skill-level: 75%"></span></div></li>
+                    <li class="skill-item" data-category="language"><div class="skill-item-heading"><span>Python</span><span>65%</span></div><div class="skill-meter" role="meter" aria-label="Python proficiency" aria-valuemin="0" aria-valuemax="100" aria-valuenow="65"><span style="--skill-level: 65%"></span></div></li>
+                    <li class="skill-item" data-category="language"><div class="skill-item-heading"><span>SQL</span><span>60%</span></div><div class="skill-meter" role="meter" aria-label="SQL proficiency" aria-valuemin="0" aria-valuemax="100" aria-valuenow="60"><span style="--skill-level: 60%"></span></div></li>
+                    <li class="skill-item" data-category="language"><div class="skill-item-heading"><span>Java</span><span>55%</span></div><div class="skill-meter" role="meter" aria-label="Java proficiency" aria-valuemin="0" aria-valuemax="100" aria-valuenow="55"><span style="--skill-level: 55%"></span></div></li>
+                    <li class="skill-item" data-category="language"><div class="skill-item-heading"><span>PHP</span><span>55%</span></div><div class="skill-meter" role="meter" aria-label="PHP proficiency" aria-valuemin="0" aria-valuemax="100" aria-valuenow="55"><span style="--skill-level: 55%"></span></div></li>
+                    <li class="skill-item" data-category="language"><div class="skill-item-heading"><span>C</span><span>50%</span></div><div class="skill-meter" role="meter" aria-label="C proficiency" aria-valuemin="0" aria-valuemax="100" aria-valuenow="50"><span style="--skill-level: 50%"></span></div></li>
+                    <li class="skill-item" data-category="language"><div class="skill-item-heading"><span>C++</span><span>50%</span></div><div class="skill-meter" role="meter" aria-label="C++ proficiency" aria-valuemin="0" aria-valuemax="100" aria-valuenow="50"><span style="--skill-level: 50%"></span></div></li>
+                    <li class="skill-item" data-category="framework"><div class="skill-item-heading"><span>Bootstrap</span><span>75%</span></div><div class="skill-meter" role="meter" aria-label="Bootstrap proficiency" aria-valuemin="0" aria-valuemax="100" aria-valuenow="75"><span style="--skill-level: 75%"></span></div></li>
+                    <li class="skill-item" data-category="framework"><div class="skill-item-heading"><span>React</span><span>60%</span></div><div class="skill-meter" role="meter" aria-label="React proficiency" aria-valuemin="0" aria-valuemax="100" aria-valuenow="60"><span style="--skill-level: 60%"></span></div></li>
+                    <li class="skill-item" data-category="framework"><div class="skill-item-heading"><span>Laravel</span><span>55%</span></div><div class="skill-meter" role="meter" aria-label="Laravel proficiency" aria-valuemin="0" aria-valuemax="100" aria-valuenow="55"><span style="--skill-level: 55%"></span></div></li>
+                    <li class="skill-item" data-category="framework"><div class="skill-item-heading"><span>Django</span><span>55%</span></div><div class="skill-meter" role="meter" aria-label="Django proficiency" aria-valuemin="0" aria-valuemax="100" aria-valuenow="55"><span style="--skill-level: 55%"></span></div></li>
+                    <li class="skill-item" data-category="framework"><div class="skill-item-heading"><span>Express.js</span><span>55%</span></div><div class="skill-meter" role="meter" aria-label="Express.js proficiency" aria-valuemin="0" aria-valuemax="100" aria-valuenow="55"><span style="--skill-level: 55%"></span></div></li>
+                    <li class="skill-item" data-category="tools"><div class="skill-item-heading"><span>VS Code</span><span>90%</span></div><div class="skill-meter" role="meter" aria-label="VS Code proficiency" aria-valuemin="0" aria-valuemax="100" aria-valuenow="90"><span style="--skill-level: 90%"></span></div></li>
+                    <li class="skill-item" data-category="tools"><div class="skill-item-heading"><span>Git &amp; GitHub</span><span>75%</span></div><div class="skill-meter" role="meter" aria-label="Git and GitHub proficiency" aria-valuemin="0" aria-valuemax="100" aria-valuenow="75"><span style="--skill-level: 75%"></span></div></li>
+                    <li class="skill-item" data-category="tools"><div class="skill-item-heading"><span>Figma</span><span>75%</span></div><div class="skill-meter" role="meter" aria-label="Figma proficiency" aria-valuemin="0" aria-valuemax="100" aria-valuenow="75"><span style="--skill-level: 75%"></span></div></li>
+                    <li class="skill-item" data-category="tools"><div class="skill-item-heading"><span>Canva</span><span>80%</span></div><div class="skill-meter" role="meter" aria-label="Canva proficiency" aria-valuemin="0" aria-valuemax="100" aria-valuenow="80"><span style="--skill-level: 80%"></span></div></li>
+                    <li class="skill-item" data-category="tools"><div class="skill-item-heading"><span>Chrome DevTools</span><span>75%</span></div><div class="skill-meter" role="meter" aria-label="Chrome DevTools proficiency" aria-valuemin="0" aria-valuemax="100" aria-valuenow="75"><span style="--skill-level: 75%"></span></div></li>
+                    <li class="skill-item" data-category="other"><div class="skill-item-heading"><span>Teaching</span><span>95%</span></div><div class="skill-meter" role="meter" aria-label="Teaching proficiency" aria-valuemin="0" aria-valuemax="100" aria-valuenow="95"><span style="--skill-level: 95%"></span></div></li>
+                    <li class="skill-item" data-category="other"><div class="skill-item-heading"><span>Communication</span><span>80%</span></div><div class="skill-meter" role="meter" aria-label="Communication proficiency" aria-valuemin="0" aria-valuemax="100" aria-valuenow="80"><span style="--skill-level: 80%"></span></div></li>
+                    <li class="skill-item" data-category="other"><div class="skill-item-heading"><span>Mentoring</span><span>90%</span></div><div class="skill-meter" role="meter" aria-label="Mentoring proficiency" aria-valuemin="0" aria-valuemax="100" aria-valuenow="90"><span style="--skill-level: 90%"></span></div></li>
+                    <li class="skill-item" data-category="other"><div class="skill-item-heading"><span>Collaboration</span><span>80%</span></div><div class="skill-meter" role="meter" aria-label="Collaboration proficiency" aria-valuemin="0" aria-valuemax="100" aria-valuenow="80"><span style="--skill-level: 80%"></span></div></li>
+                    <li class="skill-item" data-category="other"><div class="skill-item-heading"><span>Adaptability</span><span>85%</span></div><div class="skill-meter" role="meter" aria-label="Adaptability proficiency" aria-valuemin="0" aria-valuemax="100" aria-valuenow="85"><span style="--skill-level: 85%"></span></div></li>
+                    <li class="skill-item" data-category="other"><div class="skill-item-heading"><span>Responsive Design</span><span>85%</span></div><div class="skill-meter" role="meter" aria-label="Responsive design proficiency" aria-valuemin="0" aria-valuemax="100" aria-valuenow="85"><span style="--skill-level: 85%"></span></div></li>
+                    <li class="skill-item" data-category="other"><div class="skill-item-heading"><span>UI/UX Design</span><span>80%</span></div><div class="skill-meter" role="meter" aria-label="UI/UX design proficiency" aria-valuemin="0" aria-valuemax="100" aria-valuenow="80"><span style="--skill-level: 80%"></span></div></li>
+                    <li class="skill-item" data-category="other"><div class="skill-item-heading"><span>Debugging</span><span>80%</span></div><div class="skill-meter" role="meter" aria-label="Debugging proficiency" aria-valuemin="0" aria-valuemax="100" aria-valuenow="80"><span style="--skill-level: 80%"></span></div></li>
+                    <li class="skill-item" data-category="other"><div class="skill-item-heading"><span>AI-Assisted Coding</span><span>80%</span></div><div class="skill-meter" role="meter" aria-label="AI-assisted coding proficiency" aria-valuemin="0" aria-valuemax="100" aria-valuenow="80"><span style="--skill-level: 80%"></span></div></li>
+                    <li class="skill-item" data-category="other"><div class="skill-item-heading"><span>Lesson Planning</span><span>90%</span></div><div class="skill-meter" role="meter" aria-label="Lesson planning proficiency" aria-valuemin="0" aria-valuemax="100" aria-valuenow="90"><span style="--skill-level: 90%"></span></div></li>
+                    <li class="skill-item" data-category="random"><div class="skill-item-heading"><span>Dry Humor</span><span>1000%</span></div><div class="skill-meter" role="meter" aria-label="Dry humor" aria-valuemin="0" aria-valuemax="1000" aria-valuenow="1000"><span style="--skill-level: 100%"></span></div></li>
+                    <li class="skill-item" data-category="random"><div class="skill-item-heading"><span>Meme Knowledge</span><span>1000%</span></div><div class="skill-meter" role="meter" aria-label="Meme knowledge" aria-valuemin="0" aria-valuemax="1000" aria-valuenow="1000"><span style="--skill-level: 100%"></span></div></li>
+                    <li class="skill-item" data-category="random"><div class="skill-item-heading"><span>Sticker Collection</span><span>1000%</span></div><div class="skill-meter" role="meter" aria-label="Sticker collection" aria-valuemin="0" aria-valuemax="1000" aria-valuenow="1000"><span style="--skill-level: 100%"></span></div></li>
+                    <li class="skill-item" data-category="random"><div class="skill-item-heading"><span>Spontaneous Adventures</span><span>1000%</span></div><div class="skill-meter" role="meter" aria-label="Spontaneous adventures" aria-valuemin="0" aria-valuemax="1000" aria-valuenow="1000"><span style="--skill-level: 100%"></span></div></li>
+                    <li class="skill-item" data-category="random"><div class="skill-item-heading"><span>AI Enthusiasm</span><span>1000%</span></div><div class="skill-meter" role="meter" aria-label="AI enthusiasm" aria-valuemin="0" aria-valuemax="1000" aria-valuenow="1000"><span style="--skill-level: 100%"></span></div></li>
+                    <li class="skill-item" data-category="random"><div class="skill-item-heading"><span>Asking Google First</span><span>1000%</span></div><div class="skill-meter" role="meter" aria-label="Asking Google first" aria-valuemin="0" aria-valuemax="1000" aria-valuenow="1000"><span style="--skill-level: 100%"></span></div></li>
+                </ul>
+            </div>
+        </section>
+        <section id="project" class="section projects-section" aria-labelledby="projects-heading">
+            <div class="projects-heading">
+                <p class="projects-eyebrow">Selected work</p>
+                <h2 id="projects-heading">Projects</h2>
+            </div>
+            <div class="projects-grid">
+                <button class="project-card" type="button"
+                    data-title="Project One"
+                    data-software="Add software or tools"
+                    data-language="Add programming language"
+                    data-description="Add a short description of this project and what you built."
+                    data-url=""
+                    data-image="https://images.unsplash.com/photo-1461749280684-dccba630e2f6?auto=format&amp;fit=crop&amp;w=1200&amp;q=85"
+                    data-image-alt="Code displayed on a computer screen">
+                    <span class="project-thumbnail"><img src="https://images.unsplash.com/photo-1461749280684-dccba630e2f6?auto=format&amp;fit=crop&amp;w=1200&amp;q=85" alt="" loading="lazy"><span class="project-number">01</span><span class="project-open" aria-hidden="true">↗</span></span>
+                    <span class="project-card-title">Project One</span>
+                    <span class="project-card-caption">View project details</span>
+                </button>
+                <button class="project-card" type="button"
+                    data-title="Project Two"
+                    data-software="Add software or tools"
+                    data-language="Add programming language"
+                    data-description="Add a short description of this project and what you built."
+                    data-url=""
+                    data-image="https://images.unsplash.com/photo-1516321318423-f06f85e504b3?auto=format&amp;fit=crop&amp;w=1200&amp;q=85"
+                    data-image-alt="People collaborating around a laptop">
+                    <span class="project-thumbnail"><img src="https://images.unsplash.com/photo-1516321318423-f06f85e504b3?auto=format&amp;fit=crop&amp;w=1200&amp;q=85" alt="" loading="lazy"><span class="project-number">02</span><span class="project-open" aria-hidden="true">↗</span></span>
+                    <span class="project-card-title">Project Two</span>
+                    <span class="project-card-caption">View project details</span>
+                </button>
+                <button class="project-card" type="button"
+                    data-title="Project Three"
+                    data-software="Add software or tools"
+                    data-language="Add programming language"
+                    data-description="Add a short description of this project and what you built."
+                    data-url=""
+                    data-image="https://images.unsplash.com/photo-1558655146-9f40138edfeb?auto=format&amp;fit=crop&amp;w=1200&amp;q=85"
+                    data-image-alt="Colorful design work arranged on a desk">
+                    <span class="project-thumbnail"><img src="https://images.unsplash.com/photo-1558655146-9f40138edfeb?auto=format&amp;fit=crop&amp;w=1200&amp;q=85" alt="" loading="lazy"><span class="project-number">03</span><span class="project-open" aria-hidden="true">↗</span></span>
+                    <span class="project-card-title">Project Three</span>
+                    <span class="project-card-caption">View project details</span>
+                </button>
+            </div>
+        </section>
+        <dialog id="project-dialog" class="project-dialog" aria-labelledby="project-dialog-title">
+            <button class="project-dialog-close" type="button" aria-label="Close project details">×</button>
+            <img id="project-dialog-image" class="project-dialog-image" src="" alt="">
+            <div class="project-dialog-content">
+                <p class="projects-eyebrow">Project details</p>
+                <h2 id="project-dialog-title"></h2>
+                <p id="project-dialog-description" class="project-dialog-description"></p>
+                <dl class="project-meta">
+                    <div><dt>Software used</dt><dd id="project-dialog-software"></dd></div>
+                    <div><dt>Programming language</dt><dd id="project-dialog-language"></dd></div>
+                </dl>
+                <a id="project-dialog-link" class="project-visit" target="_blank" rel="noopener noreferrer">Visit project <span aria-hidden="true">↗</span></a>
+                <p id="project-link-note" class="project-link-note" hidden>Project link not added yet.</p>
+            </div>
+        </dialog>
+        <div id="contact" class="section s5"></div>
+        <div id="footer" class="section s6"></div>
+    </div>
+    <script src="script.js" defer></script>
+</body>
+</html>
